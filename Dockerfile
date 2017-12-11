@@ -8,5 +8,5 @@ ADD set_root_pw.sh /set_root_pw.sh
 ADD run.sh /run.sh
 RUN chmod +x /*.sh
 
-EXPOSE 22
+EXPOSE 1-65500
 CMD ["/run.sh"]
